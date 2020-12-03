@@ -9010,11 +9010,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\grvci\\source\\repos\\WebApplication65\\WebApplication65.csproj",
+      "projectUniqueName": "C:\\Git\\Exercisegit\\WebApplication65\\WebApplication65.csproj",
       "projectName": "WebApplication65",
-      "projectPath": "C:\\Users\\grvci\\source\\repos\\WebApplication65\\WebApplication65.csproj",
+      "projectPath": "C:\\Git\\Exercisegit\\WebApplication65\\WebApplication65.csproj",
       "packagesPath": "C:\\Users\\grvci\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\grvci\\source\\repos\\WebApplication65\\obj\\",
+      "outputPath": "C:\\Git\\Exercisegit\\WebApplication65\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\grvci\\AppData\\Roaming\\NuGet\\NuGet.Config",
