@@ -33,28 +33,31 @@
     <tbody>
         @foreach (var item in Model)
         {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Payband)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.PaySalary)
-                </td>
-                <td>
-                    @(@item.PaySalary*.10)
-                </td>
-                <td>
-                    @((@item.PaySalary*.10)+(@item.PaySalary*.05)+ (@item.PaySalary * .05)+ (@item.PaySalary))
-                </td>
-                <td>
-                    @((@item.PaySalary*.10)+(@item.PaySalary*.05)+ (@item.PaySalary * .05)+ (@item.PaySalary)- (@item.PaySalary * .10))
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.Payband">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.Payband">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Payband">Delete</a>
-                </td>
-            </tr>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Payband)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Payband)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PaySalary)
+            </td>
+            <td>
+                @(@item.PaySalary*.10)
+            </td>
+            <td>
+                @((@item.PaySalary*.10)+(@item.PaySalary*.05)+ (@item.PaySalary * .05)+ (@item.PaySalary))
+            </td>
+            <td>
+                @((@item.PaySalary*.10)+(@item.PaySalary*.05)+ (@item.PaySalary * .05)+ (@item.PaySalary)- (@item.PaySalary * .10))
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Payband">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Payband">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Payband">Delete</a>
+            </td>
+        </tr>
         }
     </tbody>
 </table>
